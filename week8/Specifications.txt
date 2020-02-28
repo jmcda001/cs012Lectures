@@ -1,0 +1,63 @@
+Employee
+-name
+-address
+-email
+-eid
++getName()
++getAddress()
++getEmail()
++getEid()
++setName()
++setAddress()
++setEmail()
++display()
+
+Lecturer
+-name
+-address
+-email
+-eid
+-courseRate (specific to Lecturer)
+-percentage (specific to Lecturer)
++getName() 
++getAddress()
++getEmail()
++getEid()
++getCourseRate() (Specific to Lecturer)
++getPercentage() (Specific to Lecturer)
++setName()
++setAddress()
++setEmail()
++setCourseRate() (Specific to Lecturer)
++setPercentage() (Specific to Lecturer)
++display()
+
+Student Employee
+-name
+-address
+-email
+-eid
+-numHours (specific to StudentEmpl)
+-hourlyRate (specific to StudentEmpl)
++getName()
++getAddress()
++getEmail()
++getEid()
++getNumHours (specific to StudentEmpl)
++getHourlyRate (specific to StudentEmpl)
++setName()
++setAddress()
++setEmail()
++setNumHours (specific to StudentEmpl)
++setHourlyRate  (specific to StudentEmpl)
++display()
++paycheckAmount  (specific to StudentEmpl)
+
+Virtual function:
+    - Causes dynamic binding
+
+Dynamic binding:
+    - At runtime, bind the function according to the type of the object being pointed to rather than the type of the pointer
+
+Static binding:
+    - At compile time bind the function according to the type of pointer
